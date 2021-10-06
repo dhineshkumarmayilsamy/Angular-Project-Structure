@@ -1,0 +1,31 @@
+<app-header></app-header>
+
+<div id="layoutSidenav">
+
+    <div id="layoutSidenav_nav">
+        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+            <div class="sb-sidenav-menu">
+                <div class="nav">
+                    <div class="sb-sidenav-menu-heading">Heading</div>
+                    <a class="nav-link" routerLink="/home" routerLinkActive="active">
+                        <div class="sb-nav-link-icon"><i class="fas fa-code"></i></div>
+                        Home
+                    </a>
+                    <a class="nav-link" routerLink="/sample" routerLinkActive="active">
+                        <div class="sb-nav-link-icon"><i class="fas fa-anchor"></i></div>
+                        Sample
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="layoutSidenav_content">
+        <main>
+            <div class="container-fluid">
+                <router-outlet></router-outlet>
+            </div>
+        </main>
+    </div>
+
+</div>

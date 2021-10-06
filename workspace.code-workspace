@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "src\\app\\shared"
+		},
+		{
+			"path": "src\\app\\core"
+		},
+		{
+			"path": "src\\app\\modules"
+		},
+		{
+			"path": "src\\app"
+		}
+	],
+	"settings": {}
+}
