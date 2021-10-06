@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
+import { Login } from '@app/shared';
+import { ApiService } from 'app/core';
 import { of } from 'rxjs';
-import { ApiService } from 'src/app/core/services/api.service';
-import { Login } from 'src/app/shared/models/login.model';
+
 
 @Injectable()
 export class LoginService {

@@ -2,7 +2,21 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "src",
+    "paths": {
+      "@app/*": [
+        "app/*"
+      ],
+      "@app/shared": [
+        "app/shared/index.ts"
+      ],
+      "@app/core": [
+        "app/core/index.ts"
+      ],
+      "@app/modules": [
+        "app/modules/index.ts"
+      ],
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,

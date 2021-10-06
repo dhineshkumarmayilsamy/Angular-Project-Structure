@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { empty, Observable } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { TokenService } from '../services/token.service';
+import { TokenService } from '@app/core';
 
 @Injectable({
   providedIn: 'root'

@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
-import { ApiService } from 'src/app/core/services/api.service';
-import { Constants } from 'src/app/shared/models/constants.model';
+import { ApiService } from '@app/core';
+import { Constants } from '@app/shared';
+import { BehaviorSubject } from 'rxjs';
+
 
 @Injectable()
 export class HomeService {

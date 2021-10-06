@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { TokenService } from 'src/app/core/services/token.service';
+import { TokenService } from '@app/core';
 
 @Component({
   selector: 'app-login-page',
